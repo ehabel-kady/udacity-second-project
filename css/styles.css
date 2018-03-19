@@ -49,6 +49,20 @@ hr{
     margin-right: 50px;
     display: inline-block;
 }
+.image4{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.image5{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    display: inline-block;
+}
 .profile{
     border-radius: 50%;
 }
@@ -75,7 +89,16 @@ hr{
         vertical-align: middle;
     }
     .image3{
-        text-align: center;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .image4{
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .image5{
+        border-radius: 50%;
+        display: inline-block;
     }
     .profile{
         vertical-align: middle;

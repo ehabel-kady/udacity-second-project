@@ -2,7 +2,7 @@
     text-align: right;
     float: right;
     margin-bottom: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
 }
 #head2{
     text-align: right;
@@ -48,4 +48,46 @@ hr{
     height: 50px;
     margin-right: 50px;
     display: inline-block;
+}
+.profile{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1400px)
+{
+    .main-portion{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        padding-left: 50px;
+        margin-left: 50px;
+    }
+    .asideportion{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        position: relative;
+    }
+    .profile{
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    .image3{
+        text-align: center;
+    }
+    .profile{
+        vertical-align: middle;
+    }
+    .image1{
+        padding-left: 100px;
+    }
+    .h1{
+        text-align: center;
+        padding-left: 100px;
+    }
+    .info{
+        text-align: center;
+    }
 }

@@ -1,23 +1,25 @@
-#head
-{
+#head{
     align-content: flex-end;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 body
 {
     display: flex;
     flex-direction: row;
 }
-#head2
-{
+
+#head2{
     text-align: right;
 }
+
 .image1
 {
     padding-bottom: 50px;
     order: 0;
 }
+
 .main-portion
 {
     width: 70%;
@@ -27,6 +29,7 @@ body
     padding-right: 50px;
     order: 1;
 }
+
 .subhead
 {
     display: flex;
@@ -37,6 +40,7 @@ body
     margin-top: -100px;
     order: 1;
 }
+
 .first
 {
     margin-top: 20px;
@@ -45,6 +49,7 @@ body
     flex-direction: column;
     align-content: center;
 }
+
 .asideportion
 {
     width: 20%;
@@ -53,19 +58,23 @@ body
     flex-direction: column;
     order: 0;
 }
+
 .image2
 {
     width: 250px;
     height: 250px;
 }
+
 hr
 {
     border-top: 3px double #8c8b8b;
 }
+
 .figures
 {
     display: inline-block;
 }
+
 .image3
 {
     border-radius: 50%;
@@ -74,6 +83,7 @@ hr
     margin-right: 50px;
     display: inline-block;
 }
+
 .image4
 {
     border-radius: 50%;
@@ -82,6 +92,7 @@ hr
     margin-right: 50px;
     display: inline-block;
 }
+
 .image5
 {
     border-radius: 50%;
@@ -90,9 +101,35 @@ hr
     margin-right: 50px;
     display: inline-block;
 }
+
 .profile
 {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 800px)
+{
+    .first
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .subhead
+    {
+        padding-top: 150px;
+        padding-right: 300px;
+    }
+
+    article
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 250px;
+        padding-right: 300px;
+    }
 }
 
 @media screen and (max-width: 1450px)
@@ -102,6 +139,7 @@ hr
         display: flex;
         flex-direction: column;
     }
+
     .main-portion
     {
         width: 100%;
@@ -111,6 +149,7 @@ hr
         padding-left: 50px;
         margin-left: 50px;
     }
+
     .asideportion
     {
         width: 100%;
@@ -119,39 +158,47 @@ hr
         order: 0;
         position: relative;
     }
+
     .profile
     {
         border-radius: 50%;
         vertical-align: middle;
     }
+
     .image3
     {
         border-radius: 50%;
         display: inline-block;
     }
+
     .image4
     {
         border-radius: 50%;
         display: inline-block;
     }
+
     .image5
     {
         border-radius: 50%;
         display: inline-block;
     }
+
     .profile
     {
         vertical-align: middle;
     }
+
     .image1
     {
         padding-left: 100px;
     }
+
     .h1
     {
         text-align: center;
         padding-left: 100px;
     }
+
     .info
     {
         text-align: center;

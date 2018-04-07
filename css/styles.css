@@ -1,75 +1,109 @@
-#head{
-    text-align: right;
-    float: right;
+#head
+{
+    align-content: flex-end;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-#head2{
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+#head2
+{
     text-align: right;
 }
-.image1{
+.image1
+{
     padding-bottom: 50px;
-    float: left;
-    display: inline-block;
+    order: 0;
 }
-.main-portion{
-    width: 75%;
-    float: right;
+.main-portion
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding-right: 50px;
-    display: inline-block;
+    order: 1;
 }
-.subhead{
-    float: right;
-    display: inline-block;
-    margin-top: 20px;
+.subhead
+{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100px;
+    order: 1;
 }
-.first{
+.first
+{
     margin-top: 20px;
     margin-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
-.asideportion{
+.asideportion
+{
     width: 20%;
-    padding-top: 150px;
-    display: inline-block;
+    padding-top: -150px;
+    display: flex;
+    flex-direction: column;
+    order: 0;
 }
-.image2 {
-width: 250px;
-height: 250px;
+.image2
+{
+    width: 250px;
+    height: 250px;
 }
-hr{
+hr
+{
     border-top: 3px double #8c8b8b;
 }
-.figures{
+.figures
+{
     display: inline-block;
 }
-.image3{
+.image3
+{
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-right: 50px;
     display: inline-block;
 }
-.image4{
+.image4
+{
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-right: 50px;
     display: inline-block;
 }
-.image5{
+.image5
+{
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-right: 50px;
     display: inline-block;
 }
-.profile{
+.profile
+{
     border-radius: 50%;
 }
 
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 1450px)
 {
-    .main-portion{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-portion
+    {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -77,40 +111,49 @@ hr{
         padding-left: 50px;
         margin-left: 50px;
     }
-    .asideportion{
+    .asideportion
+    {
         width: 100%;
         display: flex;
         flex-direction: column;
-        order: 2;
+        order: 0;
         position: relative;
     }
-    .profile{
+    .profile
+    {
         border-radius: 50%;
         vertical-align: middle;
     }
-    .image3{
+    .image3
+    {
         border-radius: 50%;
         display: inline-block;
     }
-    .image4{
+    .image4
+    {
         border-radius: 50%;
         display: inline-block;
     }
-    .image5{
+    .image5
+    {
         border-radius: 50%;
         display: inline-block;
     }
-    .profile{
+    .profile
+    {
         vertical-align: middle;
     }
-    .image1{
+    .image1
+    {
         padding-left: 100px;
     }
-    .h1{
+    .h1
+    {
         text-align: center;
         padding-left: 100px;
     }
-    .info{
+    .info
+    {
         text-align: center;
     }
 }
